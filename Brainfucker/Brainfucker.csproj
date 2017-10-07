@@ -45,7 +45,6 @@
     <Compile Include="AST\ASTree.cs" />
     <Compile Include="AST\LoopLogics.cs" />
     <Compile Include="InterpreterLogics\GlobalMemory.cs" />
-    <Compile Include="InterpreterLogics\Interpreter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
