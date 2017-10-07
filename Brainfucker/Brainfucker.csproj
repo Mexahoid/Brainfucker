@@ -39,8 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AST\ASTNode.cs" />
-    <Compile Include="AST\ASTNodePrinter.cs" />
+    <Compile Include="AST\AstLoopNode.cs" />
+    <Compile Include="AST\AstNode.cs" />
+    <Compile Include="AST\AstPrimitiveNode.cs" />
+    <Compile Include="AST\ASTree.cs" />
+    <Compile Include="AST\LoopLogics.cs" />
+    <Compile Include="InterpreterLogics\GlobalMemory.cs" />
+    <Compile Include="InterpreterLogics\Interpreter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
